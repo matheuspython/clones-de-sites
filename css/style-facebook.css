@@ -1,0 +1,49 @@
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    min-width: 1280px;
+    background-color: rgb(52, 107, 179);
+    color: white;
+    padding: 8px 0;
+}
+
+.center h2 {
+    font-size: 40px;
+}
+
+.center {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.container-inputs-header {
+    float: right;
+    padding: 2px;
+    position: relative;
+    transform: translate(0, -90%);
+    top: -15px;
+    margin-left: 5px;
+}
+
+.center>.submit {
+    background-color: rgb(106, 106, 214);
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
