@@ -69,9 +69,62 @@ header {
 }
 
 .lista-esquerda ul li {
-    margin-top: 25px;
+    font-size: 20px;
+    margin-top: 35px;
 }
 
 .lista-esquerda ul li span {
     margin-left: 15px;
+}
+
+.lista-direita {
+    float: right;
+    position: relative;
+    top: -295px;
+    height: 800px;
+    width: 33.3%;
+}
+
+.inputs-cadastro ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.lista-direita p {
+    margin-bottom: 10px;
+}
+
+.itens-para-input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin: 15px 2px;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.sem-block {
+    display: block;
+    width: 410px;
+}
+
+.container-sexo {
+    display: flex;
+    margin-top: 10px;
+}
+
+.container-sexo>.macho {
+    margin-right: 8px;
+}
+
+.container-sexo span {
+    margin-left: 3px;
+}
+
+.lista-direita input[value=cadastrar] {
+    margin-top: 20px;
+    border: 1px solid;
+    background-color: rgb(32, 209, 83);
+    height: 25px;
+    width: 200px;
+    cursor: pointer;
 }
