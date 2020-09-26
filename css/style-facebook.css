@@ -7,6 +7,7 @@
 
 html,
 body {
+    background-color: rgb(245, 247, 248);
     height: 100%;
 }
 
@@ -42,8 +43,35 @@ header {
 }
 
 .center>.submit {
+    font-size: 15px;
     background-color: rgb(106, 106, 214);
     color: white;
     border: 0;
     cursor: pointer;
+}
+
+.container-geral-meio {
+    width: 100%;
+    height: 100%;
+}
+
+.container-geral-meio {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.container-geral-meio>.lista-esquerda {
+    float: left;
+}
+
+.container-geral-meio>.lista-esquerda h2 {
+    width: 100px;
+}
+
+.lista-esquerda ul li {
+    margin-top: 25px;
+}
+
+.lista-esquerda ul li span {
+    margin-left: 15px;
 }
