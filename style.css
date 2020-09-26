@@ -50,7 +50,7 @@ header {
 
 .container input[type=text] {
     position: relative;
-    top: - px;
+    top: -8px;
     padding: 5px;
     width: 550px;
     margin-left: 30%;
@@ -64,20 +64,21 @@ header {
 
 main>.container-you {
     width: 100%;
+    min-width: 1280px;
     height: 610px;
 }
 
 main>.container-you aside {
-    position: fixed;
     float: left;
     background-color: rgb(250, 250, 250);
     width: 20%;
     height: 100%;
+    min-width: 200px;
 }
 
 main>.container-you>.centro {
     float: right;
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(252, 248, 248);
     height: 100%;
     width: 80%;
 }
@@ -99,11 +100,44 @@ aside ul li img {
     top: 5px;
 }
 
+.container-video {
+    display: inline-block;
+}
+
 .h4 {
-    margin: 0 auto;
+    margin: 5px auto;
     width: 80%;
     cursor: pointer;
     text-align: center;
     border: 1px solid;
     background-color: rgb(237, 233, 233);
+}
+
+.centro>.container-video>.imagem-video {
+    width: 250px;
+    height: 150px;
+}
+
+.centro>.container-video>.imagem-video img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.textos-video p {
+    color: gray;
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 33px;
+    top: -5px;
+    position: right;
+}
+
+.textos-video h2 {
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 33px;
+    top: -5px;
 }
